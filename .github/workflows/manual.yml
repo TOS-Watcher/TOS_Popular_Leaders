@@ -5,7 +5,7 @@ name: Manual workflow
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
-   workflow_dispatch 
+   workflow_dispatch:
    schedule:
     # triggers  every day at 12:00 and 22:00 UTC+8:
     - cron:  '0 4,14 * * *'
