@@ -10,7 +10,6 @@ on:
     # triggers  every day at 12:00 and 22:00 UTC+8:
     - cron:  '0 14 * * *'
     - cron:  '0 4 * * *'
-    - cron:  '14 * * * *'
 
    workflow_dispatch:
 
